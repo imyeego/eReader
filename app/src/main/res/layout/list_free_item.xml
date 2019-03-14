@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="12dp"
+    android:paddingTop="12dp">
+
+    <LinearLayout
+        android:id="@+id/layout_book_free"
+        android:layout_width="80dp"
+        android:layout_height="110dp"
+        android:background="@drawable/border_c7">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@mipmap/ic_launcher" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/text_free_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_toRightOf="@id/layout_book_free"
+        android:includeFontPadding="false"
+        android:text="道岳独尊"
+        android:textColor="@color/color_2"
+        android:textSize="@dimen/font_3" />
+
+    <TextView
+        android:id="@+id/text_week_status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/text_free_title"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_toRightOf="@id/layout_book_free"
+        android:ellipsize="end"
+        android:includeFontPadding="false"
+        android:maxLines="3"
+        android:text="[连载]浩瀚宇宙，百万世界，三千[连载]浩瀚宇宙，百万世界，三千[连载]浩瀚宇宙，百万世界，三千[连载]浩瀚宇宙，百万世界，三千[连载]浩瀚宇宙，百万世界，三千[连载]浩瀚宇宙，百万世界，三千"
+        android:textColor="@color/color_4"
+        android:textSize="@dimen/font_4" />
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@id/layout_book_free"
+        android:layout_alignBottom="@id/layout_book_free"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@id/layout_book_free">
+
+        <TextView
+            android:id="@+id/text_free_author"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:includeFontPadding="false"
+            android:text="远航之帆"
+            android:textColor="@color/color_6"
+            android:textSize="@dimen/font_4" />
+
+        <TextView
+            android:id="@+id/text_free_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@id/text_free_author"
+            android:background="@drawable/border_c1_r2"
+            android:includeFontPadding="false"
+            android:padding="3dp"
+            android:text="dhfskjs"
+            android:textColor="@color/color_1"
+            android:textSize="@dimen/font_6" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:includeFontPadding="false"
+            android:text="2546读过"
+            android:textColor="@color/color_6"
+            android:textSize="@dimen/font_5" />
+
+
+    </RelativeLayout>
+</RelativeLayout>

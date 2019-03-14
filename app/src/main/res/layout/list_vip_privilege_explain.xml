@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:layout_marginLeft="@dimen/activity_both_space"
+    android:layout_marginRight="@dimen/activity_both_space"
+    android:background="@color/color_11">
+
+    <TextView
+        android:id="@+id/text_vip_op"
+        android:layout_width="125dp"
+        android:layout_height="match_parent"
+        android:gravity="center_vertical"
+        android:includeFontPadding="false"
+        android:paddingLeft="@dimen/activity_both_space"
+        android:text="@string/text_vip_operation"
+        android:textColor="@color/colorWhite"
+        android:textSize="@dimen/font_3" />
+
+    <TextView
+        android:id="@+id/text_vip_no"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:includeFontPadding="false"
+        android:text="@string/text_vip_no"
+        android:textColor="@color/colorWhite"
+        android:textSize="@dimen/font_3" />
+
+    <TextView
+        android:id="@+id/text_vip_member"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:includeFontPadding="false"
+        android:text="@string/text_vip_is"
+        android:textColor="@color/colorWhite"
+        android:textSize="@dimen/font_3" />
+</LinearLayout>

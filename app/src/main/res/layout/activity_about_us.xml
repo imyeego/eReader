@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context="com.a16lao.wyh.ui.mine.activity.AboutUsActivity">
+
+    <include layout="@layout/view_toolbar" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:src="@drawable/wyh_logo" />
+
+    <TextView
+        android:id="@+id/text_us_version_code"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:includeFontPadding="false"
+        android:textColor="@color/color_3"
+        android:textSize="@dimen/font_4" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="7dp"
+        android:includeFontPadding="false"
+        android:text="@string/text_company_name"
+        android:textColor="@color/color_3"
+        android:textSize="@dimen/font_3" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:background="@android:color/white"
+        android:paddingLeft="@dimen/activity_both_space"
+        android:paddingRight="@dimen/activity_both_space">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:includeFontPadding="false"
+            android:text="@string/text_us_official"
+            android:textColor="@color/color_3"
+            android:textSize="@dimen/font_3" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:includeFontPadding="false"
+            android:text="@string/text_us_web"
+            android:textColor="@color/color_4"
+            android:textSize="@dimen/font_3" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/line_space"
+            android:layout_alignParentBottom="true"
+            android:background="@color/color_7" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@android:color/white"
+        android:paddingLeft="@dimen/activity_both_space"
+        android:paddingRight="@dimen/activity_both_space">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:includeFontPadding="false"
+            android:text="@string/text_us_wx"
+            android:textColor="@color/color_3"
+            android:textSize="@dimen/font_3" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:includeFontPadding="false"
+            android:text="@string/text_us_wx_account"
+            android:textColor="@color/color_4"
+            android:textSize="@dimen/font_3" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/line_space"
+            android:layout_alignParentBottom="true"
+            android:background="@color/color_7" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@android:color/white"
+        android:paddingLeft="@dimen/activity_both_space"
+        android:paddingRight="@dimen/activity_both_space">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:includeFontPadding="false"
+            android:text="@string/text_us_sina"
+            android:textColor="@color/color_3"
+            android:textSize="@dimen/font_3" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:includeFontPadding="false"
+            android:text="@string/text_us_wx_account"
+            android:textColor="@color/color_4"
+            android:textSize="@dimen/font_3" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/line_space"
+            android:layout_alignParentBottom="true"
+            android:background="@color/color_7" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@android:color/white"
+        android:paddingLeft="@dimen/activity_both_space"
+        android:paddingRight="@dimen/activity_both_space">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:includeFontPadding="false"
+            android:text="@string/text_us_service"
+            android:textColor="@color/color_3"
+            android:textSize="@dimen/font_3" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:includeFontPadding="false"
+            android:text="@string/text_us_service_phone"
+            android:textColor="@color/color_4"
+            android:textSize="@dimen/font_3" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/line_space"
+            android:layout_alignParentBottom="true"
+            android:background="@color/color_7" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="40dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:includeFontPadding="false"
+            android:text="@string/text_us_desc"
+            android:textColor="@color/color_4"
+            android:textSize="@dimen/font_3" />
+    </RelativeLayout>
+
+</LinearLayout>

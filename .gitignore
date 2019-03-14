@@ -1,0 +1,15 @@
+*.iml
+.gradle
+/local.properties
+.idea
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+/app/.externalNativeBuild
+
+/app/build
+/reader/*.iml
+/reader/build
+/reader/.externalNativeBuild
+/reader/src/main/obj

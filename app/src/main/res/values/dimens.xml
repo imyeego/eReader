@@ -1,0 +1,44 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <!--===================================基本字体大小===========================================-->
+    <dimen name="font_1">17sp</dimen>
+    <dimen name="font_2">16sp</dimen>
+    <dimen name="font_3">15sp</dimen>
+    <dimen name="font_4">13sp</dimen>
+    <dimen name="font_5">12sp</dimen>
+    <dimen name="font_6">11sp</dimen>
+    <!--分割线-->
+    <dimen name="line_space">0.5dp</dimen>
+    <dimen name="activity_both_space">12dp</dimen>
+    <!--状态栏高度-->
+    <dimen name="status_bar_height">25dp</dimen>
+
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+
+    <dimen name="refresh_header_height_twitter">60dp</dimen>
+    <dimen name="load_more_footer_height_classic">60dp</dimen>
+
+
+    <!-- 书本字体默认大小 -->
+    <dimen name="reading_default_text_size">20sp</dimen>
+    <!-- 书本宽边距 -->
+    <dimen name="readingMarginWidth">15dp</dimen>
+    <!-- 书本高边距 -->
+    <dimen name="readingMarginHeight">30dp</dimen>
+    <!-- 状态栏离底部距离 -->
+    <dimen name="reading_status_margin_bottom">3dp</dimen>
+    <!-- 行间距 -->
+    <dimen name="reading_line_spacing">10dp</dimen>
+    <!-- 段间距 -->
+    <dimen name="reading_paragraph_spacing">30dp</dimen>
+    <!-- 状态栏电池厚度 -->
+    <dimen name="reading_board_battery_border_width">1dp</dimen>
+    <!-- 书本字体最小大小 -->
+    <dimen name="reading_min_text_size">10sp</dimen>
+    <!-- 书本字体最大大小 -->
+    <dimen name="reading_max_text_size">30sp</dimen>
+    <!-- 设置行高 -->
+    <dimen name="setting_height">60dp</dimen>
+</resources>

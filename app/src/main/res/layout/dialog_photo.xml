@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@android:color/white">
+
+
+    <TextView
+        android:id="@+id/text_us_camera"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:includeFontPadding="false"
+        android:text="拍照"
+        android:textColor="@color/color_3"
+        android:textSize="@dimen/font_2" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/line_space"
+        android:layout_marginLeft="@dimen/activity_both_space"
+        android:layout_marginRight="@dimen/activity_both_space"
+        android:background="@color/color_7" />
+
+    <TextView
+        android:id="@+id/text_us_photo"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:includeFontPadding="false"
+        android:text="相册"
+        android:textColor="@color/color_3"
+        android:textSize="@dimen/font_2" />
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:background="@color/color_7" />
+
+    <TextView
+        android:id="@+id/text_us_cancel"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/bg_sign_bottom"
+        android:gravity="center"
+        android:includeFontPadding="false"
+        android:text="取消"
+        android:textColor="@color/color_4"
+        android:textSize="@dimen/font_2" />
+</LinearLayout>

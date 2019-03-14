@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+        <TextView
+            android:id="@+id/text_bot_one"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:drawableTop="@drawable/item_bot_one"
+            android:gravity="center"
+            android:includeFontPadding="false"
+            android:text="@string/text_bot_one"
+            android:textColor="@color/menu_bnv"
+            android:textSize="@dimen/font_6" />
+
+        <TextView
+            android:id="@+id/text_bot_two"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:drawableTop="@drawable/item_bot_two"
+            android:gravity="center"
+            android:includeFontPadding="false"
+            android:text="@string/text_bot_two"
+            android:textColor="@color/menu_bnv"
+            android:textSize="@dimen/font_6" />
+
+        <TextView
+            android:id="@+id/text_bot_three"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:drawableTop="@drawable/item_bot_three"
+            android:gravity="center"
+            android:includeFontPadding="false"
+            android:text="@string/text_bot_three"
+            android:textColor="@color/menu_bnv"
+            android:textSize="@dimen/font_6" />
+
+        <TextView
+            android:id="@+id/text_bot_four"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:drawableTop="@drawable/item_bot_four"
+            android:gravity="center"
+            android:includeFontPadding="false"
+            android:text="@string/text_bot_four"
+            android:textColor="@color/menu_bnv"
+            android:textSize="@dimen/font_6" />
+    </LinearLayout>
+
+</merge>

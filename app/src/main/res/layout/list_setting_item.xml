@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colorWhite"
+    android:orientation="vertical">
+
+    <View
+        android:id="@+id/line_setting_item"
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:background="@color/color_8" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:paddingLeft="@dimen/activity_both_space"
+        android:paddingRight="@dimen/activity_both_space">
+
+        <View
+            android:id="@+id/line_setting_space"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/line_space"
+            android:layout_alignParentBottom="true"
+            android:background="@color/color_7" />
+
+        <TextView
+            android:id="@+id/text_setting_item"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:includeFontPadding="false"
+            android:textColor="@color/color_3"
+            android:textSize="@dimen/font_3" />
+
+        <ImageView
+            android:id="@+id/icon_setting_arrow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/det_ent" />
+
+        <TextView
+            android:id="@+id/text_setting_show"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="8dp"
+            android:layout_toLeftOf="@id/icon_setting_arrow"
+            android:gravity="center"
+            android:includeFontPadding="false"
+            android:textColor="@color/color_4"
+            android:textSize="@dimen/font_4"
+            android:visibility="gone" />
+
+    </RelativeLayout>
+
+
+</LinearLayout>

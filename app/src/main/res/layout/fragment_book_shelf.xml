@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="@dimen/status_bar_height">
+
+    <include
+        android:id="@+id/view_toolbar"
+        layout="@layout/view_toolbar"
+        android:visibility="gone" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/view_toolbar"
+        android:orientation="vertical">
+
+
+        <RelativeLayout
+            android:id="@+id/layout_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="12dp"
+            >
+
+            <com.a16lao.wyh.widget.pageindecator.ViewPagerIndicator
+                android:id="@+id/vpi_bookshelf"
+                android:layout_width="180dp"
+                android:layout_height="48dp">
+
+            </com.a16lao.wyh.widget.pageindecator.ViewPagerIndicator>
+
+            <ImageView
+                android:id="@+id/more"
+                android:layout_width="46dp"
+                android:layout_height="46dp"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:padding="12dp"
+                android:src="@drawable/more" />
+
+            <ImageView
+                android:id="@+id/history"
+                android:layout_width="46dp"
+                android:layout_height="46dp"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="6dp"
+                android:padding="12dp"
+                android:layout_toLeftOf="@id/more"
+                android:src="@drawable/history" />
+        </RelativeLayout>
+
+
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="#f2f2f2" />
+
+
+        <com.a16lao.wyh.widget.CustomViewPager
+            android:id="@+id/vp_bookshelf"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+        </com.a16lao.wyh.widget.CustomViewPager>
+
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/text_book_delete"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="10dp"
+        android:background="@drawable/bg_text_delete"
+        android:enabled="false"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="删除"
+        android:textColor="#000000"
+        android:visibility="gone"
+        />
+</RelativeLayout>

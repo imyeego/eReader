@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="@dimen/activity_both_space"
+    android:paddingRight="@dimen/activity_both_space">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:includeFontPadding="false"
+            android:text="@string/text_selection_popular"
+            android:textColor="@color/color_3"
+            android:textSize="@dimen/font_2"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:includeFontPadding="false"
+            android:text="@string/text_selection_more"
+            android:textColor="@color/color_4"
+            android:textSize="@dimen/font_4"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:id="@+id/layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="9dp"
+            android:background="@drawable/border_c7">
+
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="110dp"
+                android:background="#0ff" />
+        </LinearLayout>
+
+
+        <TextView
+            android:id="@+id/text_popular_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/layout"
+            android:includeFontPadding="false"
+            android:text="道岳独尊"
+            android:textColor="@color/color_2"
+            android:textSize="@dimen/font_3" />
+
+        <TextView
+            android:id="@+id/text_popular_content"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/text_popular_title"
+            android:layout_marginTop="9dp"
+            android:layout_toRightOf="@id/layout"
+            android:ellipsize="end"
+            android:includeFontPadding="false"
+            android:maxLines="3"
+            android:text="道岳独尊道岳独尊道岳独尊道岳独尊道岳独尊道岳独尊道岳独尊道岳独尊道岳独尊道岳独尊道岳独尊道岳独尊道岳独尊道岳独尊道岳独尊道岳独尊道岳独尊道岳独尊道岳独尊"
+            android:textColor="@color/color_4"
+            android:textSize="@dimen/font_4" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@id/layout"
+            android:layout_below="@id/text_popular_content"
+            android:layout_toRightOf="@id/layout"
+            android:gravity="bottom"
+            android:includeFontPadding="false"
+            android:text="远航之帆"
+            android:textColor="@color/color_6"
+            android:textSize="@dimen/font_5" />
+    </RelativeLayout>
+
+
+</LinearLayout>

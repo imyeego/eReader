@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:background="@color/colorWhite"
+    android:paddingLeft="@dimen/activity_both_space"
+    android:paddingRight="@dimen/activity_both_space">
+
+    <TextView
+        android:id="@+id/switch_push_prompt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:includeFontPadding="false"
+        android:textColor="@color/color_3"
+        android:textSize="@dimen/font_3" />
+
+    <Switch
+        android:id="@+id/switch_push_item"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:checked="true"
+        android:thumb="@drawable/thumb"
+        android:track="@drawable/track" />
+</RelativeLayout>

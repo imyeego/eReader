@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingRight="@dimen/activity_both_space"
+    android:paddingLeft="@dimen/activity_both_space">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:includeFontPadding="false"
+            android:text="@string/text_selection_hot"
+            android:textColor="@color/color_3"
+            android:textSize="@dimen/font_2"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:includeFontPadding="false"
+            android:text="@string/text_selection_more"
+            android:textColor="@color/color_4"
+            android:textSize="@dimen/font_4"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/border_c7">
+
+                <ImageView
+                    android:layout_width="88dp"
+                    android:layout_height="135dp"
+                    android:background="#f00" />
+            </RelativeLayout>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:includeFontPadding="false"
+                android:text="重生之最强剑神"
+                android:textColor="@color/color_2"
+                android:textSize="@dimen/font_3" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="7dp"
+                android:includeFontPadding="false"
+                android:text="天运老猫"
+                android:textColor="@color/color_6"
+                android:textSize="@dimen/font_5" />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="@dimen/line_space"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="28dp"
+            android:background="@color/color_7" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingBottom="8dp"
+                android:paddingLeft="15dp">
+
+                <ImageView
+                    android:id="@+id/icon_selection_hot"
+                    android:layout_width="60dp"
+                    android:layout_height="82.5dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:background="#0f0" />
+
+                <TextView
+                    android:id="@+id/text_hot"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginTop="12dp"
+                    android:layout_toLeftOf="@id/icon_selection_hot"
+                    android:ellipsize="end"
+                    android:includeFontPadding="false"
+                    android:maxLines="1"
+                    android:text="沙门空海之大唐鬼宴"
+                    android:textColor="@color/color_2"
+                    android:textSize="@dimen/font_3" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/text_hot"
+                    android:layout_marginTop="7dp"
+                    android:includeFontPadding="false"
+                    android:text="梦枕貘"
+                    android:textColor="@color/color_6"
+                    android:textSize="@dimen/font_5" />
+
+
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/line_space"
+                android:background="@color/color_7" />
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingBottom="8dp"
+                android:paddingLeft="15dp">
+
+                <ImageView
+                    android:id="@+id/icon_selection_hot2"
+                    android:layout_width="60dp"
+                    android:layout_height="82.5dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:background="#0f0" />
+
+                <TextView
+                    android:id="@+id/text_hot2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginTop="12dp"
+                    android:layout_toLeftOf="@id/icon_selection_hot2"
+                    android:ellipsize="end"
+                    android:includeFontPadding="false"
+                    android:maxLines="1"
+                    android:text="沙门空海之大唐鬼宴"
+                    android:textColor="@color/color_2"
+                    android:textSize="@dimen/font_3" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/text_hot2"
+                    android:layout_marginTop="7dp"
+                    android:includeFontPadding="false"
+                    android:text="梦枕貘"
+                    android:textColor="@color/color_6"
+                    android:textSize="@dimen/font_5" />
+
+
+            </RelativeLayout>
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

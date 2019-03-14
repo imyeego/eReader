@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include layout="@layout/view_toolbar" />
+
+    <TextView
+        android:id="@+id/text_book_discount"
+        android:layout_width="match_parent"
+        android:layout_height="36dp"
+        android:background="#FCEAE3"
+        android:gravity="center"
+        android:text="开通会员，立享全场7.5折，打折书籍享折上折！去看看>>"
+        android:textColor="@color/color_3"
+        android:textSize="@dimen/font_5" />
+
+</LinearLayout>

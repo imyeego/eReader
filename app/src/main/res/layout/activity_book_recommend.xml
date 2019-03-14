@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context="com.a16lao.wyh.ui.city.activity.BookRecommendActivity">
+
+    <include layout="@layout/view_toolbar" />
+
+    <RatingBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="30dp"
+        android:layout_marginTop="30dp"
+        android:numStars="5"
+        android:stepSize="1"
+        android:visibility="gone" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="210dp"
+        android:layout_marginLeft="@dimen/activity_both_space"
+        android:layout_marginRight="@dimen/activity_both_space"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/bg_cw_r3_border_c7">
+
+        <EditText
+            android:id="@+id/edit_book_recommend"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@null"
+            android:gravity="top"
+            android:hint="写下你的评论"
+            android:includeFontPadding="false"
+            android:inputType="textMultiLine"
+            android:maxLength="200"
+            android:paddingBottom="50dp"
+            android:paddingLeft="@dimen/activity_both_space"
+            android:paddingRight="@dimen/activity_both_space"
+            android:paddingTop="10dp"
+            android:textColor="@color/color_3"
+            android:textColorHint="@color/color_5"
+            android:textSize="@dimen/font_3" />
+
+        <TextView
+            android:id="@+id/text_book_recommend"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:includeFontPadding="false"
+            android:paddingBottom="@dimen/activity_both_space"
+            android:paddingRight="@dimen/activity_both_space"
+            android:text="0/200"
+            android:textColor="@color/color_6"
+            android:textSize="@dimen/font_4" />
+
+    </RelativeLayout>
+
+</LinearLayout>

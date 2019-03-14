@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_8">
+
+
+    <ImageView
+        android:id="@+id/icon_book_part"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/list_bg_one"
+        android:scaleType="fitXY"
+        android:visibility="gone" />
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+
+                android:id="@+id/iv_banner"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/list_bg"
+                android:scaleType="fitXY" />
+
+
+            <com.a16lao.wyh.widget.swipetoloadlayout.SwipeToLoadLayout
+                android:id="@+id/list_a"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="48dp"
+                android:fitsSystemWindows="true"
+                app:swipe_style="blew">
+
+                <include
+                    android:id="@+id/swipe_refresh_header"
+                    layout="@layout/layout_twitter_header" />
+
+                <android.support.v7.widget.RecyclerView
+                    android:id="@+id/swipe_target"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <include
+                    android:id="@+id/swipe_load_more_footer"
+                    layout="@layout/layout_classic_footer" />
+            </com.a16lao.wyh.widget.swipetoloadlayout.SwipeToLoadLayout>
+        </RelativeLayout>
+    </ScrollView>
+
+    <TextView
+        android:id="@+id/textview"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:fitsSystemWindows="true"
+        android:gravity="center|bottom"
+        android:text="我是标题"
+        android:textColor="@android:color/white"
+        android:textSize="18sp" />
+</RelativeLayout>

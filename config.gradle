@@ -1,0 +1,28 @@
+ext {
+    configs = [
+            applicationId    : "com.a16lao.wyh",
+            compileSdkVersion: 26,
+            minSdkVersion    : 19,
+            targetSdkVersion : 26,
+            versionCode      : 1,
+            versionName      : '1.0'
+    ]
+    signingConfig = []
+
+    depsVersion = [
+            retrofitVersion : "2.4.0",
+            supportVersion  : "26.1.0",
+            objectboxVersion: "1.5.0",
+            javaVersion     : "1.8"
+    ]
+    depends = [
+            support    : "com.android.support:appcompat-v7:${depsVersion.supportVersion}",
+            retrofit   : "com.squareup.retrofit2:retrofit: ${depsVersion.retrofitVersion}",
+            scalars    : "com.squareup.retrofit2:converter-scalars:${depsVersion.retrofitVersion}",
+            adapter    : "com.squareup.retrofit2:adapter-rxjava:${depsVersion.retrofitVersion}",
+            design     : "com.android.support:design:${depsVersion.supportVersion}",
+            objectbox  : "io.objectbox:objectbox-android:${depsVersion.objectboxVersion}",
+            obprocessor: "io.objectbox:objectbox-processor:${depsVersion.objectboxVersion}",
+            stetho     : "com.facebook.stetho:stetho:${depsVersion.objectboxVersion}"
+    ]
+}

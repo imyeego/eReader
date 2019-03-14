@@ -1,0 +1,54 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowBackground">@android:color/white</item>
+        <item name="android:listDivider">@drawable/rv_divider</item>
+    </style>
+
+    <style name="dialog" parent="@android:style/Theme.Dialog">
+        <!--提示框是否透明-->
+        <item name="android:windowIsTranslucent">false</item>
+        <!--提示框是否有标题-->
+        <item name="android:windowNoTitle">true</item>
+        <!--提示框背景颜色-->
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <!--提示框背景是否变暗-->
+        <item name="android:backgroundDimEnabled">false</item>
+        <!--提示框是否全屏-->
+        <item name="android:windowFullscreen">true</item>
+
+    </style>
+
+    <style name="common_dialog" parent="android:style/Theme.Dialog">
+        <item name="android:windowNoTitle">true</item>
+        <!-- <item name="android:background">@android:color/transparent</item> -->
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowIsFloating">true</item>
+    </style>
+
+    <style name="TabLayoutTextStyle">
+        <item name="android:textSize">@dimen/font_3</item>
+
+    </style>
+    <style name="TRM_ANIM_STYLE">
+        <item name="android:windowEnterAnimation">@anim/pop_inter</item>
+        <item name="android:windowExitAnimation">@anim/pop_outer</item>
+    </style>
+
+    <style name="ZxingTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/result_view</item>
+        <item name="colorPrimaryDark">@color/result_view</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowActionBarOverlay">true</item>
+        <item name="android:windowBackground">@null</item>
+    </style>
+
+
+
+</resources>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="54dp"
+    android:layout_alignParentBottom="true"
+    android:id="@+id/rl_option_bottom"
+    android:background="@color/white">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/color_7"
+        android:layout_marginTop="0.5dp"/>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true">
+
+        <ImageView
+            android:id="@+id/iv_delete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/delete_2"/>
+
+        <TextView
+            android:id="@+id/tv_delete_count"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/iv_delete"
+            android:textColor="@color/color_4"
+            android:textSize="@dimen/sp_14"
+            android:layout_centerVertical="true"
+            android:text="删除"
+            android:layout_marginLeft="5dp"/>
+    </RelativeLayout>
+
+</RelativeLayout>

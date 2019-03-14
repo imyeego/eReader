@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/white"
+    android:orientation="vertical">
+
+    <include layout="@layout/view_toolbar" />
+
+    <GridView
+        android:id="@+id/grid_recharge_money"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:horizontalSpacing="20dp"
+        android:numColumns="3"
+        android:paddingLeft="@dimen/activity_both_space"
+        android:paddingRight="@dimen/activity_both_space"
+        android:scrollbars="none"
+        android:verticalSpacing="20dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:includeFontPadding="false"
+        android:paddingLeft="@dimen/activity_both_space"
+        android:text="支付方式"
+        android:textColor="@color/color_3"
+        android:textSize="@dimen/font_3"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/activity_both_space"
+        android:layout_marginTop="15dp">
+
+        <LinearLayout
+            android:id="@+id/view_reward_ali"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:background="@drawable/border_c15"
+            android:gravity="center"
+            android:padding="1dp">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/det_pay_ali" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/view_reward_wx"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="20dp"
+            android:gravity="center"
+            android:padding="1dp">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/det_pay_wx" />
+        </LinearLayout>
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/text_recharge_imm"
+        android:layout_width="210dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/bg_c1_r6"
+        android:gravity="center"
+        android:text="立即充值"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/font_1" />
+
+
+</LinearLayout>

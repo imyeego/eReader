@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical">
+
+    <include layout="@layout/view_toolbar" />
+
+    <LinearLayout
+        android:layout_width="275dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="60dp"
+        android:orientation="vertical">
+
+        <include
+            android:id="@+id/view_login_phone"
+            layout="@layout/view_login_simple" />
+
+        <include
+            android:id="@+id/view_login_password"
+            layout="@layout/view_login_item"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="20dp" />
+
+        <TextView
+            android:id="@+id/text_login_login"
+            android:layout_width="275dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/bg_btn"
+            android:enabled="false"
+            android:gravity="center"
+            android:text="@string/text_title_login"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/font_2" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/text_login_forget"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:includeFontPadding="false"
+                android:padding="10dp"
+                android:text="@string/text_forget_password"
+                android:textColor="@color/color_11"
+                android:textSize="@dimen/font_4" />
+
+            <TextView
+                android:id="@+id/text_go_register"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:includeFontPadding="false"
+                android:padding="10dp"
+                android:text="@string/text_register_quick"
+                android:textColor="@color/color_3"
+                android:textSize="@dimen/font_4" />
+        </RelativeLayout>
+
+    </LinearLayout>
+</LinearLayout>

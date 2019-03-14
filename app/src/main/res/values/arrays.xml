@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="arr_mine_setting">
+        <item>个人资料</item>
+        <item>修改密码</item>
+        <item>阅读设置</item>
+        <item>推送通知</item>
+        <item>作家入驻规则</item>
+        <item>清除缓存</item>
+        <item>关于我们</item>
+        <item>意见反馈</item>
+        <item>给我们评分</item>
+    </string-array>
+
+    <string-array name="arr_vip_privilege">
+        <item>签到奖励</item>
+        <item>书籍短文阅读</item>
+        <item>书评 评文 评论</item>
+        <item>书籍购买</item>
+        <item>购买优惠</item>
+        <item>身份标识</item>
+        <item>书籍折上折</item>
+        <item>vip专属免费</item>
+    </string-array>
+
+    <string-array name="arr_choose_type">
+        <item>类型</item>
+        <item>进度</item>
+        <item>价格</item>
+        <item>更新时间</item>
+        <item>字数</item>
+        <item>作者</item>
+    </string-array>
+
+    <string-array name="arr_choose_type_form">
+        <item>不限</item>
+        <item>东方玄幻</item>
+        <item>异世大陆</item>
+        <item>王朝争霸</item>
+        <item>斗气世界</item>
+        <item>高武争斗</item>
+        <item>东方玄幻</item>
+        <item>异世大陆</item>
+    </string-array>
+
+    <string-array name="arr_choose_type_progress">
+        <item>不限</item>
+        <item>连载</item>
+        <item>完结</item>
+    </string-array>
+
+    <string-array name="arr_choose_type_price">
+        <item>不限</item>
+        <item>免费</item>
+        <item>付费</item>
+        <item>限时折扣</item>
+        <item>限时免费</item>
+        <item>会员免费</item>
+    </string-array>
+
+    <string-array name="arr_choose_type_time">
+        <item>不限</item>
+        <item>1天内</item>
+        <item>3天内</item>
+        <item>7天内</item>
+        <item>半月内</item>
+        <item>1月内</item>
+        <item>3月内</item>
+    </string-array>
+
+    <string-array name="arr_choose_type_words">
+        <item>不限</item>
+        <item>30万以下</item>
+        <item>30&#8211;50万</item>
+        <item>50&#8211;100万</item>
+        <item>100&#8211;200万</item>
+        <item>200万以上</item>
+
+    </string-array>
+    <string-array name="arr_choose_type_author">
+        <item>不限</item>
+        <item>签约</item>
+        <item>独家</item>
+    </string-array>
+</resources>

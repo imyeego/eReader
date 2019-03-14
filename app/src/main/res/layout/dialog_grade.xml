@@ -1,0 +1,64 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg_cw_r6"
+    android:orientation="vertical"
+    tools:context="com.a16lao.wyh.ui.mine.dialog.ExitDialogFragment">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="79dp"
+        android:gravity="center_vertical"
+        android:includeFontPadding="false"
+        android:paddingLeft="@dimen/activity_both_space"
+        android:text="喜欢文友汇吗？给我们的App打个分吧~"
+        android:textColor="@color/color_3"
+        android:textSize="@dimen/font_2" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/line_space"
+        android:background="@color/color_7" />
+
+    <TextView
+        android:id="@+id/text_grade_go"
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:gravity="center"
+        android:includeFontPadding="false"
+        android:text="喜欢，去打分"
+        android:textColor="@color/color_1"
+        android:textSize="@dimen/font_2" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/line_space"
+        android:background="@color/color_7" />
+
+    <TextView
+        android:id="@+id/text_grade_feedback"
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:gravity="center"
+        android:includeFontPadding="false"
+        android:text="不，我要吐槽"
+        android:textColor="@color/color_3"
+        android:textSize="@dimen/font_2" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/line_space"
+        android:background="@color/color_7" />
+
+    <TextView
+        android:id="@+id/text_grade_cancel"
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:gravity="center"
+        android:includeFontPadding="false"
+        android:text="别再问我了"
+        android:textColor="@color/color_3"
+        android:textSize="@dimen/font_2" />
+</LinearLayout>

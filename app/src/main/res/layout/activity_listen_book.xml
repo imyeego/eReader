@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.a16lao.wyh.ui.city.activity.ListenBookActivity">
+
+    <include
+        android:id="@+id/view_listen_tool"
+        layout="@layout/view_toolbar_no" />
+
+    <LinearLayout
+        android:id="@+id/view_listen_book"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/view_listen_tool"
+        android:background="@color/colorWhite"
+        android:gravity="center_vertical"
+        android:paddingBottom="15dp"
+        android:paddingLeft="@dimen/activity_both_space"
+        android:paddingRight="@dimen/activity_both_space">
+
+        <RelativeLayout
+            android:layout_width="80dp"
+            android:layout_height="110dp"
+            android:background="@drawable/border_c7"
+            android:padding="1dp">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="fitXY"
+                android:src="@mipmap/ic_launcher" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/det_vip" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:src="@drawable/listen"
+                android:layout_margin="2dp"/>
+        </RelativeLayout>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:includeFontPadding="false"
+                android:text="荣耀法兰西"
+                android:textColor="@color/color_3"
+                android:textSize="@dimen/font_2"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/text_book_count"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:includeFontPadding="false"
+                android:text="5汇豆/千字|211.5万字"
+                android:textColor="@color/color_6"
+                android:textSize="@dimen/font_5" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:includeFontPadding="false"
+                android:text="开通会员"
+                android:textColor="@color/color_1"
+                android:textSize="@dimen/font_5" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/bg_c1_r3"
+                android:gravity="center"
+                android:includeFontPadding="false"
+                android:padding="5dp"
+                android:text="加入书架"
+                android:textColor="@color/colorWhite"
+                android:textSize="@dimen/font_3" />
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/text_listen_catalog"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_below="@id/view_listen_book"
+        android:layout_marginLeft="@dimen/activity_both_space"
+        android:gravity="center_vertical"
+        android:includeFontPadding="false"
+        android:text="sfsdlk"
+        android:textColor="@color/color_3"
+        android:textSize="@dimen/font_5" />
+
+    <ListView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/text_listen_catalog"
+        android:divider="@color/color_7"
+        android:dividerHeight="@dimen/line_space"
+        android:paddingLeft="@dimen/activity_both_space"
+        android:paddingRight="@dimen/activity_both_space" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="132dp"
+        android:layout_alignParentBottom="true"
+        android:background="@color/colorWhite"
+        android:orientation="vertical"
+        android:paddingBottom="20dp">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/line_space"
+            android:background="@color/color_7" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:paddingLeft="22dp"
+            android:paddingRight="22dp">
+
+            <SeekBar
+                android:id="@+id/seek_listen_book"
+                style="@android:style/Widget.ProgressBar.Horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="12dp"
+                android:maxHeight="2dp"
+                android:minHeight="2dp"
+                android:paddingEnd="0dp"
+                android:paddingLeft="0dp"
+                android:paddingRight="0dp"
+                android:paddingStart="0dp"
+                android:progressDrawable="@drawable/progress_indeterminate"
+                android:thumb="@drawable/progress_seek_bar"
+                android:thumbOffset="0dp" />
+
+            <TextView
+                android:id="@id/view_listen_book"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:includeFontPadding="false"
+                android:text="03.22"
+                android:textColor="@color/color_6"
+                android:textSize="@dimen/font_6" />
+
+            <TextView
+                android:id="@id/view_listen_book"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="10dp"
+                android:includeFontPadding="false"
+                android:text="03.22"
+                android:textColor="@color/color_6"
+                android:textSize="@dimen/font_6" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="19dp"
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="27dp"
+                android:drawablePadding="3dp"
+                android:drawableTop="@drawable/art_down"
+                android:includeFontPadding="false"
+                android:text="下载"
+                android:textColor="@color/color_4"
+                android:textSize="@dimen/font_5" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/last" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40dp"
+                android:layout_marginRight="40dp"
+                android:src="@drawable/play" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/next" />
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</RelativeLayout>

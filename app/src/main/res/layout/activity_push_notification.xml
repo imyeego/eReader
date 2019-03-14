@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context="com.a16lao.wyh.ui.mine.activity.PushNotificationActivity">
+
+    <include layout="@layout/view_toolbar" />
+
+    <TextView
+        android:id="@+id/text_push_prompt"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:gravity="center_vertical"
+        android:includeFontPadding="false"
+        android:paddingLeft="@dimen/activity_both_space"
+        android:text="@string/text_push_prompt"
+        android:textColor="@color/color_4"
+        android:textSize="@dimen/font_4" />
+
+    <View
+        android:id="@+id/line_push_space"
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:background="@color/color_8" />
+
+    <include
+        android:id="@+id/view_push_accept"
+        layout="@layout/view_switch" />
+
+    <TextView
+        android:id="@+id/text_push_explain"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center_vertical"
+        android:includeFontPadding="false"
+        android:paddingLeft="@dimen/activity_both_space"
+        android:paddingRight="@dimen/activity_both_space"
+        android:text="@string/text_mine_push"
+        android:textColor="@color/color_4"
+        android:textSize="@dimen/font_4" />
+
+    <LinearLayout
+        android:id="@+id/view_push_prompt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:gravity="center_vertical"
+            android:includeFontPadding="false"
+            android:paddingLeft="@dimen/activity_both_space"
+            android:text="@string/text_mine_remind"
+            android:textColor="@color/color_1"
+            android:textSize="@dimen/font_4" />
+
+        <include
+            android:id="@+id/view_push_update"
+            layout="@layout/view_switch" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:gravity="center_vertical"
+            android:includeFontPadding="false"
+            android:paddingLeft="@dimen/activity_both_space"
+            android:text="@string/text_mine_notice"
+            android:textColor="@color/color_1"
+            android:textSize="@dimen/font_4" />
+
+        <include
+            android:id="@+id/view_push_reward"
+            layout="@layout/view_switch" />
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/line_space"
+            android:background="@color/color_7" />
+
+        <include
+            android:id="@+id/view_push_recommend"
+            layout="@layout/view_switch" />
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/line_space"
+            android:background="@color/color_7" />
+
+        <include
+            android:id="@+id/view_push_system"
+            layout="@layout/view_switch" />
+    </LinearLayout>
+</LinearLayout>

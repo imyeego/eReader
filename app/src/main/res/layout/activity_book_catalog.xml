@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.a16lao.wyh.ui.city.activity.BookCatalogActivity">
+
+    <include
+        android:id="@+id/view_book_catalog_tool"
+        layout="@layout/view_toolbar" />
+
+    <TextView
+        android:id="@+id/text_book_catalog"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_below="@id/view_book_catalog_tool"
+        android:layout_marginLeft="@dimen/activity_both_space"
+        android:gravity="center_vertical"
+        android:text="sdfgd"
+        android:textColor="@color/color_5"
+        android:textSize="@dimen/font_4" />
+
+
+    <LinearLayout
+        android:id="@+id/view_book_catalog_bottom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@color/colorWhite"
+        android:orientation="vertical"
+        android:paddingBottom="20dp"
+        android:paddingLeft="@dimen/activity_both_space">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/line_space"
+            android:background="@color/color_7" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:includeFontPadding="false"
+            android:text="已选：0章节"
+            android:textColor="@color/color_3"
+            android:textSize="@dimen/font_3" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:includeFontPadding="false"
+            android:text="已选：0章节"
+            android:textColor="@color/color_3"
+            android:textSize="@dimen/font_3" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:includeFontPadding="false"
+            android:text="已选：0章节"
+            android:textColor="@color/color_1"
+            android:textSize="@dimen/font_3"
+            android:visibility="gone" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:includeFontPadding="false"
+            android:text="已选：0章节"
+            android:textColor="@color/color_3"
+            android:textSize="@dimen/font_3" />
+
+        <TextView
+            android:id="@+id/text_book_catalog_prompt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            android:includeFontPadding="false"
+            android:text="已选：0章节"
+            android:textColor="@color/color_1"
+            android:textSize="@dimen/font_4" />
+
+        <TextView
+            android:id="@+id/text_book_catalog_buy"
+            android:layout_width="210dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/bg_btn"
+            android:enabled="false"
+            android:gravity="center"
+            android:includeFontPadding="false"
+            android:text="已选：0章节"
+            android:textColor="@color/colorWhite"
+            android:textSize="@dimen/font_2" />
+
+    </LinearLayout>
+
+    <ExpandableListView
+        android:id="@+id/expanded_book_catalog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/view_book_catalog_bottom"
+        android:layout_below="@id/text_book_catalog"
+        android:background="@color/colorWhite"
+        android:groupIndicator="@null"
+        android:paddingLeft="@dimen/activity_both_space"
+        android:paddingRight="@dimen/activity_both_space"
+        android:scrollbars="none" />
+</RelativeLayout>

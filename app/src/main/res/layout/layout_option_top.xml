@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rl_option_top"
+    android:layout_width="match_parent"
+    android:layout_height="73dp"
+    android:paddingTop="25dp"
+    android:background="@color/white"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/text_toolbar_middle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:includeFontPadding="false"
+            android:text="批量删除"
+            android:textColor="@color/color_3"
+            android:textSize="@dimen/font_1" />
+
+
+        <TextView
+            android:id="@+id/text_toolbar_left"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_centerVertical="true"
+            android:gravity="center"
+            android:paddingLeft="12dp"
+            android:paddingRight="10dp"
+            android:text="全选"
+            android:textSize="14sp" />
+
+
+        <TextView
+            android:id="@+id/text_toolbar_right"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:drawablePadding="3dp"
+            android:gravity="center"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="完成"
+            android:textSize="14sp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/line_space"
+            android:layout_alignParentBottom="true"
+            android:background="@color/color_7" />
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

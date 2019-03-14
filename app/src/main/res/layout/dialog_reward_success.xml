@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="@drawable/bg_sign_title"
+            android:gravity="center">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/sign_in_success" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="9dp"
+                android:includeFontPadding="false"
+                android:text="打赏成功"
+                android:textColor="@color/colorWhite"
+                android:textSize="@dimen/font_2" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:background="@color/colorWhite"
+            android:gravity="center"
+            android:includeFontPadding="false"
+            android:text="感谢您对作品和作者的支持~"
+            android:textColor="@color/color_3"
+            android:textSize="@dimen/font_3" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/line_space"
+            android:background="@color/color_7" />
+
+        <TextView
+            android:id="@+id/text_reward_close"
+            android:layout_width="match_parent"
+            android:layout_height="44dp"
+            android:background="@drawable/bg_sign_bottom"
+            android:gravity="center"
+            android:includeFontPadding="false"
+            android:text="关闭"
+            android:textColor="@color/color_1"
+            android:textSize="@dimen/font_2" />
+    </LinearLayout>
+</LinearLayout>

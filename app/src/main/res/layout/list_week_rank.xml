@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingRight="24dp"
+    android:paddingTop="15dp">
+
+    <LinearLayout
+        android:id="@+id/layout_week_rank"
+        android:layout_width="55dp"
+        android:layout_height="75dp"
+        android:background="@drawable/border_c7">
+
+        <ImageView
+            android:id="@+id/icon_week_rank"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@mipmap/ic_launcher" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/text_week_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_toRightOf="@id/layout_week_rank"
+        android:includeFontPadding="false"
+        android:text="1.道岳独尊"
+        android:textSize="@dimen/font_3"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/text_week_status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/text_week_title"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="10dp"
+        android:layout_toRightOf="@id/layout_week_rank"
+        android:includeFontPadding="false"
+        android:text="[连载]浩瀚宇宙，百万世界，三千"
+        android:textColor="@color/color_6"
+        android:textSize="@dimen/font_5"
+        android:maxLines="1"
+        android:ellipsize="end"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@id/layout_week_rank"
+        android:layout_alignBottom="@id/layout_week_rank"
+        android:layout_marginLeft="8dp"
+        android:layout_toRightOf="@id/layout_week_rank">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:includeFontPadding="false"
+            android:text="dhfskjs"
+            android:textColor="@color/color_6"
+            android:textSize="@dimen/font_5" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/border_c1_r2"
+            android:includeFontPadding="false"
+            android:padding="4dp"
+            android:text="dhfskjs"
+            android:textColor="@color/color_1"
+            android:textSize="@dimen/font_6" />
+    </LinearLayout>
+
+
+</RelativeLayout>

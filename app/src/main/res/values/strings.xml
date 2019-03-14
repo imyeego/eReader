@@ -1,0 +1,159 @@
+<resources>
+    <!--zxing-->
+    <string name="msg_camera_framework_bug">相机被占用或没有相机权限，请检查</string>
+    <string name="button_ok">退出</string>
+    <string name="viewfinderview_status_text1">将二维码/条码放入取景框内</string>
+    <string name="viewfinderview_status_text2">即可自动扫描</string>
+    <string name="app_name">文友汇</string>
+    <!--========================================底部导航==========================================-->
+    <string name="text_bot_one">书架</string>
+    <string name="text_bot_two">书城</string>
+    <string name="text_bot_three">分类</string>
+    <string name="text_bot_four">我的</string>
+    <!--==========================================书城============================================-->
+
+    <string name="text_search_hint">搜索用户，书籍，短文和漫画</string>
+    <!--精选-->
+    <string name="text_selection_hot">经典热读</string>
+    <string name="text_selection_more">更多>></string>
+    <string name="text_selection_recommend">主编推荐</string>
+    <string name="text_selection_prose">散文天地</string>
+    <string name="text_selection_popular">人气连载</string>
+
+    <!--==========================================书架============================================-->
+
+    <string name="text_shelf_book">书籍</string>
+    <string name="text_shelf_essay">短文</string>
+    <string name="text_shelf_scan">扫一扫</string>
+    <string name="text_shelf_multioption">批量管理</string>
+    <string name="text_shelf_book_purchased">已购书籍</string>
+    <string name="text_shelf_book_cached">下载管理</string>
+    <string name="text_shelf_comments_history">评论历史</string>
+    <string name="text_shelf_night_mode">夜间模式</string>
+    <string name="text_shelf_recently_readed">最近阅读</string>
+    <string name="text_shelf_list_clear">清空</string>
+
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <!--==========================================我的============================================-->
+    <string name="text_mine_account">账户</string>
+    <string name="text_mine_writer">成为作家</string>
+    <string name="text_mine_vip">会员中心</string>
+    <string name="text_mine_setting">设置</string>
+    <string name="text_mine_login">登录/注册</string>
+    <string name="text_mine_sign">立即签到</string>
+    <string name="text_mine_signed">已签到</string>
+
+    <!--登录-->
+    <string name="text_title_login">登录</string>
+    <string name="text_forget_password">忘记密码?</string>
+    <string name="text_register_quick">快速注册</string>
+    <string name="text_hint_login_phone">请输入手机号码</string>
+    <string name="text_hint_login_password">请输入密码</string>
+    <!--注册-->
+    <string name="text_register_next">下一步</string>
+    <string name="text_title_register">注册</string>
+    <string name="text_register_password_rule">6&#8211;16个字符,支持大小写字母,数字“_”</string>
+    <string name="text_register_protocol_pre">已阅读</string>
+    <string name="text_register_protocol">《用户协议》</string>
+    <string name="text_register_verify">请输入验证码</string>
+    <string name="text_register_verify_get">获取验证码</string>
+    <string name="text_title_forget_password">忘记密码</string>
+    <string name="text_forget_reset">重置并登录</string>
+    <!--签到-->
+    <string name="text_title_sign">签到</string>
+    <string name="text_sign_reward">连续签到奖励</string>
+    <string name="text_sign_day_3">连续签到3天</string>
+    <string name="text_sign_bean_3">赠送10汇豆</string>
+    <string name="text_sign_day_5">连续签到5天</string>
+    <string name="text_sign_bean_5">赠送15汇豆</string>
+    <string name="text_sign_day_10">连续签到10天</string>
+    <string name="text_sign_bean_10">赠送50汇豆</string>
+    <string name="text_sign_day_30">连续签到30天</string>
+    <string name="text_sign_bean_30">赠送500汇豆</string>
+    <string name="text_sign_done">已完成</string>
+    <string name="text_sign_undone">未完成</string>
+    <string name="text_sign_rule">签到规则</string>
+    <string name="text_mine_sign_rule">1、每日签到可立即获得2汇豆;\n2、连续签到3天、5天、10天、30天可额外获得汇豆;\n3、连续签到天数将在连续签到满30天后归零;\n4、断签则连续签到天数立即清零。</string>
+    <string name="text_mine_push">可点击上方“接受推送通知”去设置\n或在手机设置中找到“文友汇”进行通知或消息的开启设置</string>
+    <string name="text_sign_success">签到成功</string>
+    <string name="text_sign_close">关闭</string>
+    <!--消息-->
+    <string name="text_mine_notice">通知</string>
+    <string name="text_mine_message">消息</string>
+    <string name="text_mine_remind">提醒</string>
+    <string name="text_account_balance">余额(汇豆)</string>
+    <string name="text_account_recharge">充值</string>
+    <!--充值中心-->
+    <string name="text_recharge_center">充值中心</string>
+    <string name="text_recharge_payment">支付方式</string>
+    <string name="text_recharge_ali">支付宝支付</string>
+    <string name="text_recharge_wx">微信支付</string>
+    <string name="text_recharge_explain">1、汇豆充值比例为1元 = 10汇豆，充值金额越大，优惠越多\n2、充值获得的汇豆仅在文友汇使用\n3、充值获得的汇豆不能兑换成等额人民币\n4、完成充值后，若账户余额长时间无变化，可咨询客服400&#8211;2333&#8211;2333</string>
+    <string name="text_recharge_go">立即充值</string>
+    <string name="text_recharge_done">完成</string>
+    <string name="text_book_buy">书籍购买</string>
+    <string name="text_reward_detail">打赏明细</string>
+    <string name="text_recharge_detail">充值明细</string>
+    <string name="text_activity_gift">活动赠送</string>
+    <string name="text_book_buy_detail">书籍购买详情</string>
+    <string name="text_vip_center">会员中心</string>
+    <string name="text_title_open_record">开通记录</string>
+    <string name="text_vip_privilege">会员权限</string>
+
+    <!--会员中心-->
+    <string name="text_privilege_explain">特权说明</string>
+    <string name="text_vip_privilege_explain">会员特权</string>
+    <string name="text_vip_operation_explain">操作权限说明</string>
+    <string name="text_vip_operation">操作权限</string>
+    <string name="text_vip_is">会员</string>
+    <string name="text_vip_no">非会员</string>
+    <!--设置-->
+    <string name="text_mine_logout">退出登录</string>
+    <string name="text_exit_explain">确定退出登录?</string>
+    <string name="text_exit_cancel">取消</string>
+    <string name="text_exit_sure">确定</string>
+    <!--个人资料-->
+    <string name="text_personal_data">个人资料</string>
+    <string name="text_personal_avatar">头像</string>
+    <string name="text_personal_username">用户名</string>
+    <string name="text_personal_ID">用户ID</string>
+    <string name="text_personal_phone">绑定手机</string>
+    <!--修改密码-->
+    <string name="text_update_password">修改密码</string>
+    <string name="text_update_verify">验证码</string>
+    <string name="text_update_psd">密&#160;&#160;&#160;&#160;码</string>
+    <!--阅读设置-->
+    <string name="text_reading_setting">阅读设置</string>
+    <!--推送通知-->
+    <string name="text_push_notice">推送通知</string>
+    <string name="text_push_prompt">开启后可及时收到新消息提醒</string>
+    <string name="text_push_accept">接受推送通知</string>
+    <string name="text_update_prompt">书架书籍更新</string>
+    <string name="text_reward_prompt">收到打赏</string>
+    <string name="text_recommend_prompt">收到书评、评文、评论、赞</string>
+    <string name="text_system_prompt">系统通知</string>
+    <!--关于我们-->
+    <string name="text_about_us">关于我们</string>
+    <string name="text_company_name">北京一路捞互联网有限公司</string>
+    <string name="text_us_official">官网</string>
+    <string name="text_us_web">wyh.16lao.com</string>
+    <string name="text_us_wx">微信公众号</string>
+    <string name="text_us_wx_account">一路捞文友汇</string>
+    <string name="text_us_sina">新浪微博</string>
+    <string name="text_us_service">客服电话</string>
+    <string name="text_us_service_phone">400&#8211;8988&#8211;1616</string>
+    <string name="text_us_desc">创造一个伟大的文学时代\nCopyright&#160;&#160;@&#160;&#160;2018一路捞文友汇</string>
+    <string name="text_title_feed_back">意见反馈</string>
+    <string name="text_feed_back_submit">提交</string>
+    <string name="text_feed_back_hint">请写下您的意见或建议...</string>
+    <!--意见反馈-->
+
+
+    <!--behavior-->
+    <string name="behavior_ratio">com.a16lao.wyh.ui.city.behavior.RatioBehavior</string>
+    <string name="behavior_elasticity">com.a16lao.wyh.ui.city.behavior.ElasticityBehavior</string>
+
+</resources>

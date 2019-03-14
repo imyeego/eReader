@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingLeft="@dimen/activity_both_space"
+    android:paddingRight="@dimen/activity_both_space">
+
+    <TextView
+        android:id="@+id/text_choose_type"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:includeFontPadding="false"
+        android:text="2018.4"
+        android:textColor="@color/color_4"
+        android:textSize="@dimen/font_4" />
+
+    <com.a16lao.wyh.widget.NoScrollGridView
+        android:id="@+id/grid_choose_type"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:horizontalSpacing="15dp"
+        android:numColumns="4"
+        android:scrollbars="none"
+        android:verticalSpacing="15dp" />
+</LinearLayout>

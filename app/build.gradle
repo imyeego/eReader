@@ -1,0 +1,79 @@
+apply plugin: 'com.android.application'
+apply plugin: 'io.objectbox'
+def configs = rootProject.ext.configs
+def depends = rootProject.ext.depends
+android {
+    compileSdkVersion configs.compileSdkVersion
+    defaultConfig {
+        applicationId configs.applicationId
+        minSdkVersion configs.minSdkVersion
+        targetSdkVersion configs.targetSdkVersion
+        versionCode configs.versionCode
+        versionName configs.versionName
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+        vectorDrawables.useSupportLibrary = true
+        multiDexEnabled true
+//        externalNativeBuild {
+//            cmake {
+//                cppFlags ""
+//                abiFilters "arm64-v8a", "armeabi-v7a"
+//            }
+//        }
+    }
+
+    //cmake tool
+//    externalNativeBuild {
+//        cmake {
+//            path "CMakeLists.txt"
+//        }
+//    }
+
+    sourceSets.main {
+        jniLibs.srcDir 'src/main/libs'
+        jni.srcDirs = []
+    }
+
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+        targetCompatibility rootProject.ext.depsVersion.javaVersion
+        sourceCompatibility rootProject.ext.depsVersion.javaVersion
+    }
+}
+
+dependencies {
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+    implementation depends.support
+    implementation 'com.android.support.constraint:constraint-layout:1.1.2'
+    implementation 'com.android.support:support-v4:26.1.0'
+    testImplementation 'junit:junit:4.12'
+    implementation 'com.squareup.okio:okio:1.14.1'
+    implementation 'com.squareup.okhttp3:okhttp:3.10.0'
+    implementation depends.retrofit
+    implementation depends.scalars
+    implementation 'io.reactivex.rxjava2:rxjava:2.1.13'
+    implementation 'io.reactivex.rxjava2:rxandroid:2.0.2'
+    implementation depends.adapter
+    implementation 'com.alibaba:fastjson:1.2.47'
+    implementation('com.github.bumptech.glide:glide:4.7.1') {
+        exclude group: "com.android.support"
+    }
+    implementation depends.design
+    implementation 'com.google.zxing:core:3.3.0'
+    implementation depends.objectbox
+    annotationProcessor depends.obprocessor
+    implementation depends.stetho
+    implementation 'com.facebook.stetho:stetho-okhttp3:1.5.0'
+    implementation 'com.github.CymChad:BaseRecyclerViewAdapterHelper:2.9.40'
+    implementation('me.ele:uetool:1.0.15') {
+        exclude group: "com.android.support"
+    }
+    implementation project(':reader')
+    implementation files('libs/commons-io-2.6.jar')
+    compile 'com.github.todou:appbarspring:1.0.7'
+}

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/white"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <include layout="@layout/view_toolbar" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:src="@drawable/success_eecharge" />
+
+    <TextView
+        android:id="@+id/text_recharge_success"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:includeFontPadding="false"
+        android:textColor="@color/color_3"
+        android:textSize="@dimen/font_2" />
+
+    <TextView
+        android:id="@+id/text_recharge_balance"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="9dp"
+        android:includeFontPadding="false"
+        android:textColor="@color/color_3"
+        android:textSize="@dimen/font_2" />
+
+    <TextView
+        android:id="@+id/text_recharge_done"
+        android:layout_width="209dp"
+        android:layout_height="40dp"
+        android:layout_marginBottom="30dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/bg_c1_r6"
+        android:gravity="center"
+        android:includeFontPadding="false"
+        android:text="@string/text_recharge_done"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/font_2" />
+
+
+</LinearLayout>

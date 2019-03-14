@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorWhite">@android:color/white</color>
+
+    <!--=================================基本色号================================================-->
+    <color name="color_1">#f77a4f</color>
+    <color name="color_2">#111111</color>
+    <color name="color_3">#333333</color>
+    <color name="color_4">#666666</color>
+    <color name="color_5">#777777</color>
+    <color name="color_6">#999999</color>
+    <color name="color_7">#dddddd</color>
+    <color name="color_8">#f5f5f5</color>
+    <color name="color_9">#d1714f</color>
+    <color name="color_10">#e6d5cf</color>
+    <color name="color_11">#a97218</color>
+    <color name="color_12">#fab114</color>
+    <color name="color_13">#f90404</color>
+    <color name="color_14">#f7f8f2</color>
+    <color name="color_15">#a97218</color>
+    <color name="color_302">#30111111</color>
+
+
+    <!--zxing-->
+    <color name="contents_text">#000000</color>
+    <color name="encode_view">#ffffff</color>
+    <color name="possible_result_points">#ffbd21</color>
+    <color name="result_minor_text">#c0c0c0</color>
+    <color name="result_points">#99cc00</color>
+    <color name="result_text">#ffffff</color>
+    <color name="result_view">#000000</color>
+    <color name="status_text">#ffffff</color>
+    <color name="viewfinder_mask">#50000000</color>
+    <color name="react">#63B8FF</color>
+    <color name="scanLineColor">#63B8FF</color>
+</resources>

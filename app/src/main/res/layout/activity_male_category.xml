@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorWhite"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context="com.a16lao.wyh.ui.city.activity.MaleCategoryActivity">
+
+    <include layout="@layout/view_toolbar" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:includeFontPadding="false"
+        android:text="——无限好书，尽在文友汇——"
+        android:textColor="@color/color_4"
+        android:textSize="@dimen/font_4" />
+
+    <GridView
+        android:id="@+id/grid_male_category"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="15dp"
+        android:horizontalSpacing="25dp"
+        android:numColumns="4"
+        android:scrollbars="none"
+        android:verticalSpacing="15dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="45dp"
+        android:includeFontPadding="false"
+        android:text="——无限好书，尽在文友汇——"
+        android:textColor="@color/color_4"
+        android:textSize="@dimen/font_4" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:drawablePadding="5dp"
+            android:drawableTop="@drawable/icon_female"
+            android:gravity="center"
+            android:includeFontPadding="false"
+            android:text="女频"
+            android:textColor="@color/color_3"
+            android:textSize="@dimen/font_3" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:drawablePadding="5dp"
+            android:drawableTop="@drawable/icon_passage"
+            android:gravity="center"
+            android:includeFontPadding="false"
+            android:text="女频"
+            android:textColor="@color/color_3"
+            android:textSize="@dimen/font_3" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:drawablePadding="5dp"
+            android:drawableTop="@drawable/icon_listen"
+            android:gravity="center"
+            android:includeFontPadding="false"
+            android:text="女频"
+            android:textColor="@color/color_3"
+            android:textSize="@dimen/font_3" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:drawablePadding="5dp"
+            android:drawableTop="@drawable/icon_comic"
+            android:gravity="center"
+            android:includeFontPadding="false"
+            android:text="女频"
+            android:textColor="@color/color_3"
+            android:textSize="@dimen/font_3" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:drawablePadding="5dp"
+            android:drawableTop="@drawable/icon_list"
+            android:gravity="center"
+            android:includeFontPadding="false"
+            android:text="女频"
+            android:textColor="@color/color_3"
+            android:textSize="@dimen/font_3" />
+    </LinearLayout>
+
+</LinearLayout>

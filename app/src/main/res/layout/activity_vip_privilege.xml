@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical"
+    tools:context="com.a16lao.wyh.ui.mine.activity.VipPrivilegeActivity">
+
+    <include layout="@layout/view_toolbar" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:layout_marginLeft="@dimen/activity_both_space"
+        android:layout_marginTop="20dp"
+        android:includeFontPadding="false"
+        android:text="@string/text_vip_operation_explain"
+        android:textColor="@color/color_3"
+        android:textSize="@dimen/font_3"
+        android:textStyle="bold" />
+
+    <include layout="@layout/list_vip_privilege_explain" />
+
+    <ListView
+        android:id="@+id/list_vip_explain"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/activity_both_space"
+        android:layout_marginRight="@dimen/activity_both_space"
+        android:divider="@null"
+        android:scrollbars="none" />
+</LinearLayout>

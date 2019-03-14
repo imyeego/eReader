@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:id="@+id/view_reward"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:background="@android:color/white"
+        android:orientation="vertical"
+        android:paddingTop="60dp">
+
+        <GridView
+            android:id="@+id/grid_reward"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:horizontalSpacing="20dp"
+            android:numColumns="3"
+            android:paddingBottom="25dp"
+            android:paddingLeft="@dimen/activity_both_space"
+            android:paddingRight="@dimen/activity_both_space"
+            android:scrollbars="none"
+            android:verticalSpacing="20dp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/line_space"
+            android:background="@color/color_7" />
+
+        <LinearLayout
+            android:id="@+id/view_reward_bottom"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@android:color/white"
+            android:orientation="horizontal"
+            android:paddingLeft="@dimen/activity_both_space">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:includeFontPadding="false"
+                android:text="余额：5000汇豆"
+                android:textColor="@color/color_3"
+                android:textSize="@dimen/font_3" />
+
+            <TextView
+                android:id="@+id/text_reward"
+                android:layout_width="150dp"
+                android:layout_height="match_parent"
+                android:background="@color/color_12"
+                android:gravity="center"
+                android:includeFontPadding="false"
+                android:text="打赏"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/font_1"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </LinearLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/icon_reward"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/det_rew_b" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@id/icon_reward"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_toRightOf="@id/icon_reward"
+            android:includeFontPadding="false"
+            android:text="打赏可以鼓励作者更积极的创作"
+            android:textColor="#f63900"
+            android:textSize="@dimen/font_4" />
+    </RelativeLayout>
+
+
+</RelativeLayout>

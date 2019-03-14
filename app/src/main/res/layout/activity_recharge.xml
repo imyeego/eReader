@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include layout="@layout/view_toolbar" />
+
+    <GridView
+        android:id="@+id/grid_recharge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/white"
+        android:horizontalSpacing="20dp"
+        android:numColumns="3"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingTop="15dp"
+        android:scrollbars="none"
+        android:verticalSpacing="15dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/white"
+        android:includeFontPadding="false"
+        android:paddingLeft="20dp"
+        android:paddingTop="20dp"
+        android:text="@string/text_recharge_payment"
+        android:textColor="@color/color_3"
+        android:textSize="@dimen/font_2"
+        android:textStyle="bold" />
+
+    <include
+        android:id="@+id/view_recharge_ali"
+        layout="@layout/view_recharge_payment" />
+
+    <include
+        android:id="@+id/view_recharge_wx"
+        layout="@layout/view_recharge_payment" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:background="@android:color/white" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:includeFontPadding="false"
+        android:paddingLeft="12dp"
+        android:paddingRight="12dp"
+        android:text="@string/text_recharge_explain"
+        android:textColor="@color/color_4"
+        android:textSize="@dimen/font_4" />
+
+    <TextView
+        android:id="@+id/text_recharge_go"
+        android:layout_width="210dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/bg_c1_r6"
+        android:gravity="center"
+        android:includeFontPadding="false"
+        android:text="@string/text_recharge_go"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/font_2" />
+
+
+</LinearLayout>

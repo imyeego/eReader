@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colorWhite"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@color/color_1"
+        android:gravity="center">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/sign_in_success" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:includeFontPadding="false"
+            android:text="充值成功"
+            android:textColor="@color/colorWhite"
+            android:textSize="@dimen/font_1" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="25dp"
+        android:layout_marginTop="25dp">
+
+        <TextView
+            android:id="@+id/text_recharge_bean"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:includeFontPadding="false"
+            android:text="充值：500汇豆"
+            android:textColor="@color/color_3"
+            android:textSize="@dimen/font_2" />
+
+        <TextView
+            android:id="@+id/text_recharge_current"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/text_recharge_bean"
+            android:layout_marginTop="10dp"
+            android:includeFontPadding="false"
+            android:text="当前余额："
+            android:textColor="@color/color_3"
+            android:textSize="@dimen/font_2" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@id/text_recharge_current"
+            android:layout_toRightOf="@id/text_recharge_current"
+            android:includeFontPadding="false"
+            android:text="2000汇豆"
+            android:textColor="@color/color_1"
+            android:textSize="@dimen/font_2"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/line_space"
+        android:background="@color/color_7" />
+
+    <TextView
+        android:id="@+id/text_recharge_close"
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:background="@drawable/bg_sign_bottom"
+        android:gravity="center"
+        android:includeFontPadding="false"
+        android:text="关闭"
+        android:textColor="@color/color_1"
+        android:textSize="@dimen/font_2" />
+
+</LinearLayout>

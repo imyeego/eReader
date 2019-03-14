@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:scrollbars="none">
+
+
+    <com.a16lao.wyh.widget.swipetoloadlayout.SwipeToLoadLayout
+        android:id="@+id/list_selection"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <include
+            android:id="@+id/swipe_refresh_header"
+            layout="@layout/layout_twitter_header" />
+
+        <ListView
+            android:id="@+id/swipe_target"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/white"
+            android:divider="@color/color_8"
+            android:dividerHeight="10dp" />
+
+        <include
+            android:id="@+id/swipe_load_more_footer"
+            layout="@layout/layout_classic_footer" />
+
+    </com.a16lao.wyh.widget.swipetoloadlayout.SwipeToLoadLayout>
+
+    <include layout="@layout/view_prompt" />
+
+
+</LinearLayout>

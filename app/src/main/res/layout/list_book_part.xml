@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/white"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/icon"
+        android:layout_width="match_parent"
+        android:layout_height="78dp"
+        android:background="@color/colorAccent"
+        android:scaleType="centerCrop" />
+
+
+    <TextView
+        android:id="@+id/text_book"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:includeFontPadding="false"
+        android:text="为什么我们都爱穿越小说？"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:textColor="@color/color_3"
+        android:textSize="@dimen/font_3"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tv_book_description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:includeFontPadding="false"
+        android:maxLines="4"
+        android:lineSpacingExtra="5dp"
+        android:text="各位读者老也好，穿越小说为什么这么火？"
+        android:textColor="@color/color_4"
+        android:textSize="@dimen/font_4"
+        android:layout_marginBottom="6dp"/>
+
+</LinearLayout>

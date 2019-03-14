@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:padding="12dp">
+
+
+
+    <ImageView
+        android:id="@+id/img_essay"
+        android:layout_width="100dp"
+        android:layout_height="75dp"
+        android:scaleType="centerCrop"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="20dp"
+        android:background="@drawable/bg_banner_border"
+        />
+
+    <ImageView
+        android:id="@+id/img_selected"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/unselected"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginRight="12dp"
+        android:visibility="gone"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_toRightOf="@id/img_selected"
+        android:layout_toLeftOf="@+id/img_essay">
+
+        <TextView
+            android:id="@+id/tv_essay_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:layout_marginTop="3dp"
+            android:layout_marginBottom="3dp"
+            android:text="爱逛菜地的汪曾祺"
+            android:textColor="@color/color_2"
+            />
+
+        <TextView
+            android:id="@+id/tv_essay_abstract"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="13sp"
+            android:layout_marginTop="6dp"
+            android:layout_marginBottom="6dp"
+            android:text="认识汪曾祺是在上世纪八十年代认识汪曾祺是在上世纪八十年代"
+            android:textColor="@color/color_4"
+            android:lines="1"
+            android:ellipsize="end"
+            />
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:layout_marginTop="3dp"
+            android:layout_marginBottom="3dp"
+            >
+            <ImageView
+                android:id="@+id/img_author_avatar"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_marginRight="3dp"/>
+
+            <TextView
+                android:id="@+id/tv_author_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="3dp"
+                android:layout_marginRight="5dp"
+                android:layout_toRightOf="@id/img_author_avatar"
+                android:textSize="10sp"
+                android:textColor="@color/color_6"
+                android:layout_centerVertical="true"
+                android:text="李辉"
+                />
+
+            <TextView
+                android:id="@+id/tv_count"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="3dp"
+                android:layout_marginRight="5dp"
+                android:layout_toRightOf="@id/tv_author_name"
+                android:textSize="10sp"
+                android:layout_centerVertical="true"
+                android:textColor="@color/color_6"
+                android:text="点击 245"
+                />
+
+
+        </RelativeLayout>
+
+
+
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="10dp"
+    android:paddingTop="15dp"
+    android:paddingLeft="12dp"
+    android:paddingRight="12dp"
+    android:paddingBottom="12dp">
+
+    <RelativeLayout
+        android:id="@+id/rl_line_1"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:gravity="center_vertical"
+        android:layout_marginBottom="4dp">
+
+        <TextView
+            android:id="@+id/tv_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/color_4"
+            android:textSize="@dimen/sp_12"
+            android:text="2018-08-01"
+            />
+
+        <TextView
+            android:id="@+id/tv_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/color_4"
+            android:layout_toRightOf="@+id/tv_date"
+            android:layout_marginLeft="10dp"
+            android:textSize="@dimen/sp_12"
+            android:text="18:56"
+            />
+
+        <ImageView
+            android:id="@+id/img_delete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/delete_2"
+            />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/tv_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_below="@+id/rl_line_1"
+        android:textColor="@color/color_3"
+        android:text="这是一项不朽的工作，是多年潜心研究和细致学术思索的成果，它不可能被本世纪任何有关明治天皇的书所取代，注定要成为所有想了解明治维新和现代日本形成的外国学生的必读书目。"
+        android:lineSpacingExtra="5dp"
+        android:layout_marginBottom="5dp"
+        />
+    
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_below="@+id/tv_content"
+        android:background="@color/color_8">
+        
+        <ImageView
+            android:id="@+id/img_book_cover"
+            android:layout_width="44dp"
+            android:layout_height="match_parent"
+            />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_toRightOf="@id/img_book_cover"
+            android:paddingLeft="12dp"
+            android:paddingTop="8dp"
+            >
+
+            <TextView
+                android:id="@+id/tv_book_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/color_2"
+                android:textSize="@dimen/sp_16"
+                android:text="道岳独尊"
+                android:layout_marginBottom="3dp"/>
+
+            <TextView
+                android:id="@+id/tv_chapter_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tv_book_name"
+                android:textColor="@color/color_4"
+                android:textSize="14sp"
+                android:text="远航之帆 | 连载">
+
+
+            </TextView>
+        </RelativeLayout>
+
+
+    </RelativeLayout>
+
+</RelativeLayout>

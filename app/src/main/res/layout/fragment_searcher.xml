@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:includeFontPadding="false"
+        android:paddingLeft="@dimen/activity_both_space"
+        android:paddingRight="@dimen/activity_both_space"
+        android:text="大家都在搜"
+        android:textColor="@color/color_4"
+        android:textSize="@dimen/font_4" />
+
+    <GridView
+        android:id="@+id/grid_search_hot"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:scrollbars="none"
+        android:background="@drawable/bg_grid_right"
+        android:horizontalSpacing="20dp"
+        android:numColumns="2"
+        android:paddingLeft="@dimen/activity_both_space"
+        android:paddingRight="@dimen/activity_both_space"
+        android:verticalSpacing="20dp" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:paddingLeft="@dimen/activity_both_space"
+        android:paddingRight="@dimen/activity_both_space">
+
+        <TextView
+            android:id="@+id/tv_history_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:includeFontPadding="false"
+            android:text="搜索历史"
+            android:textColor="@color/color_4"
+            android:textSize="@dimen/font_4" />
+
+        <TextView
+            android:id="@+id/tv_history_clear"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1"
+            android:drawableLeft="@drawable/hp_search_dels"
+            android:drawablePadding="4dp"
+            android:gravity="right"
+            android:includeFontPadding="false"
+            android:text="清空"
+            android:textColor="@color/color_4"
+            android:textSize="@dimen/font_4" />
+    </RelativeLayout>
+
+    <GridView
+        android:id="@+id/grid_search_history"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/bg_grid_right"
+        android:horizontalSpacing="20dp"
+        android:numColumns="2"
+        android:scrollbars="none"
+        android:paddingLeft="@dimen/activity_both_space"
+        android:paddingRight="@dimen/activity_both_space"
+        android:verticalSpacing="25dp" />
+
+</LinearLayout>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingBottom="15dp"
+    android:paddingLeft="10dp"
+    android:paddingTop="15dp">
+
+    <TextView
+        android:id="@+id/text_expand_child"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:includeFontPadding="false"
+        android:text="第1章-第50章"
+        android:textColor="@color/color_3"
+        android:textSize="@dimen/font_3" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/text_expand_child"
+        android:layout_marginTop="8dp"
+        android:includeFontPadding="false"
+        android:text="15汇豆"
+        android:textColor="@color/color_1"
+        android:textSize="@dimen/font_5" />
+
+    <ImageView
+        android:id="@+id/icon_expand_child"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:src="@drawable/art_down_buy" />
+
+</RelativeLayout>

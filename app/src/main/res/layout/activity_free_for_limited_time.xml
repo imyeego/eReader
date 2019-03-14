@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include layout="@layout/view_toolbar" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:paddingLeft="12dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:drawablePadding="6dp"
+            android:drawableRight="@drawable/hp_sort_down"
+            android:gravity="center_vertical"
+            android:includeFontPadding="false"
+            android:text="人气排序"
+            android:textColor="@color/color_4"
+            android:textSize="@dimen/font_3" />
+    </LinearLayout>
+
+
+    <com.a16lao.wyh.widget.swipetoloadlayout.SwipeToLoadLayout
+        android:id="@+id/swipe_book_free"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <include
+            android:id="@+id/swipe_refresh_header"
+            layout="@layout/layout_twitter_header" />
+
+        <ListView
+            android:id="@+id/swipe_target"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:divider="@color/color_7"
+            android:dividerHeight="0.5dp" />
+
+        <include
+            android:id="@+id/swipe_load_more_footer"
+            layout="@layout/layout_classic_footer" />
+
+    </com.a16lao.wyh.widget.swipetoloadlayout.SwipeToLoadLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:gravity="center"
+        android:text="--到底啦--"
+        android:textColor="@color/color_4"
+        android:textSize="@dimen/font_4" />
+
+</LinearLayout>
